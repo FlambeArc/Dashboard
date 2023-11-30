@@ -117,3 +117,44 @@ header{
 .pesquisa input[type=text]:focus{
     outline: 0;
 }
+
+.alerta{
+    float: right;
+    margin-right: 28px;
+    background: #fbedef;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.alerta p{
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    display: inline-block;
+    background: #ed7387;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.alerta i{
+    color: #ed7387;
+    font-weight: bold;
+    font-weight: 18px;
+    line-height: 30px;
+}
+
+.nome{
+    float: right;
+    margin-right: 100px;
+}
+
+.nome h2{
+    font-weight: normal;
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-top: 5px;
+}
