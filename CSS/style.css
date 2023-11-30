@@ -69,3 +69,51 @@ div.menu li:hover a{
 
 /* FIM DA SIDEBAR */
 
+div.main{
+    float: left;
+    width: calc(100% - 270px);
+    height: 100%;
+}
+
+header{
+    background: white;
+    padding: 20px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pesquisa{
+    float: right;
+}
+
+.icone{
+    background: #d6d6d6;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icone i{
+    position: relative;
+    top: 6px;
+}
+
+.pesquisa form{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pesquisa input[type=text]{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-left: 0;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.pesquisa input[type=text]:focus{
+    outline: 0;
+}
