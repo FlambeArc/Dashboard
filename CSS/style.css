@@ -52,6 +52,10 @@ div.menu ul li i{
     font-size: 18px;
 }
 
+div.menu ul li a{
+    margin-left: 8px;
+}
+
 div.menu ul li.baixo{
     position: absolute;
     bottom: 20px;
@@ -157,4 +161,31 @@ header{
     font-size: 18px;
     color: #a7a7a7;
     margin-top: 5px;
+}
+
+.con1{
+    float: left;
+    width: 70%;
+    padding: 30px;
+}
+
+.panel{
+    width: 100%;
+    float: left;
+    background: white;
+    border: 2px solid #ebebeb;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.panel h2{
+    color: #7f7f7f;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.panel p{
+    color: #b2b2b2;
+    font-size: 17px;
+    margin-top: 10px;
 }
