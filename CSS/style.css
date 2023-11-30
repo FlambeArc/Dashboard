@@ -83,6 +83,7 @@ header{
     background: white;
     padding: 20px 15px;
     border-bottom: 2px solid #ccc;
+    height: 72px;
 }
 
 .pesquisa{
@@ -165,8 +166,10 @@ header{
 
 .con1{
     float: left;
-    width: 70%;
+    width: 80%;
     padding: 30px;
+    overflow-y: auto;
+    height: calc(100% - 72px);
 }
 
 .panel{
@@ -188,4 +191,49 @@ header{
     color: #b2b2b2;
     font-size: 17px;
     margin-top: 10px;
+}
+
+.atividades{
+    width: 20%;
+    float: left;
+    padding: 20px 30px;
+    background: #eaebeb;
+    height: calc(100% - 72px);
+    overflow: auto;
+}
+
+.top h2{
+    color: #7f7f7f;
+    font-size: 23px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+}
+
+.registro{
+    padding: 15px 10px;
+    border-left: 1px solid #bbbbbb;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    left: -11px;
+    top: -11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #bbbbbb;
+    background: #eaebeb;
+}
+
+.registro h2{
+    color: #bbbbbb;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.registro p{
+    color: #b2b2b2;
+    font-size: 15px;
 }
