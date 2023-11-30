@@ -86,6 +86,19 @@ header{
     height: 72px;
 }
 
+.burg{
+    float: left;
+    display: none;
+}
+
+.burg h2{
+    font-weight: normal;
+    font-size: 23px;
+    color: #a7a7a7;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
 .pesquisa{
     float: right;
 }
@@ -236,4 +249,36 @@ header{
 .registro p{
     color: #b2b2b2;
     font-size: 15px;
+}
+
+@media screen and (max-width: 1024px){
+    .atividades{
+        display: none;
+    }
+
+    .con1{
+        width: 100%;
+    }
+
+    .panel{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .burg{
+        display: block;
+    }
+
+    .sidebar{
+        display: none;
+        position: relative;
+        z-index: 999999;
+    }
+
+    div.main{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 }
